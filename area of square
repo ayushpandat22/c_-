@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    
+    cout<<"input the side of square : ";
+    cin>>n;
+
+    float area = n*n;
+
+    cout<<"Area of the square : "<<area<<endl;
+
+    return 0;
+}
